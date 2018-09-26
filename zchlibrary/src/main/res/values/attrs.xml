@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ViewPagerTitle">
+        <attr format="color" name="background_content_color"/>
+        <attr format="color" name="defaultTextViewColor"/>
+        <attr format="color" name="selectedTextViewColor"/>
+        <attr format="dimension" name="defaultTextViewSize"/>
+        <attr format="dimension" name="selectedTextViewSize"/>
+        <attr format="dimension" name="item_margins"/>
+        <attr format="color" name="line_start_color"/>
+        <attr format="color" name="line_end_color"/>
+        <attr format="integer" name="line_height"/>
+    </declare-styleable>
+
+    <!--<declare-styleable name="PayPsdInputView">-->
+
+        <!--<attr name="maxCount" format="integer" />-->
+        <!--<attr name="circleColor" format="color" />-->
+        <!--<attr name="bottomLineColor" format="color" />-->
+        <!--<attr name="radius" format="dimension" />-->
+        <!--<attr name="divideLineWidth" format="dimension" />-->
+        <!--<attr name="divideLineColor" format="color" />-->
+        <!--<attr name="rectAngle" format="dimension" />-->
+        <!--<attr name="focusedColor" format="color"/>-->
+        <!--<attr name="psdType" format="enum">-->
+            <!--<enum name="weChat" value="0" />-->
+            <!--<enum name="bottomLine" value="1" />-->
+        <!--</attr>-->
+    <!--</declare-styleable>-->
+
+    <declare-styleable name="MyPayPsdInputView">
+        <attr name="maxCount" format="integer" />
+        <attr name="circleRadius" format="dimension" />
+        <attr name="circleColor" format="color" />
+        <attr name="strokeCorners" format="dimension" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="strokeColor" format="color" />
+        <attr name="divideLineWidth" format="dimension" />
+        <attr name="divideLineColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="AmountView">
+        <!-- 左右2边+-按钮的宽度 -->
+        <attr name="btnWidth" format="dimension" />
+        <!-- 中间TextView的宽度 -->
+        <attr name="tvWidth" format="dimension" />
+        <!--<attr name="tvColor" format="color"/>-->
+        <attr name="tvTextSize" format="dimension"/>
+        <attr name="btnTextSize" format="dimension"/>
+    </declare-styleable>
+
+    <!-- Textview两端对齐的自定义属性-->
+    <declare-styleable name="AlignTextView">
+        <!-- 文本-->
+        <attr name="text" format="string"/>
+        <!-- 后缀符号类型:全角、半角-->
+        <attr name="suffixMode" format="enum">
+            <enum name="full_width" value="1"/>
+            <enum name="half_width" value="2"/>
+        </attr>
+    </declare-styleable>
+
+</resources>
